@@ -6,13 +6,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 
 <h1>Topic Names</h1>
 <table id = "example" class="SectionTable display" >
-		<thead>
-      <th>Topic Name</th>
-		</thead>
 		<tbody>
 			<tr>
         <td>
-					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/const-ness.cpp">const-ness in C++</a>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/const-ness.cpp">:flashlight:const-ness in C++</a>
 				</td>
 			</tr>
 		</tbody>
