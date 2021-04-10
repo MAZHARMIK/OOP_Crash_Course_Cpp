@@ -8,8 +8,13 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 <table id = "example" class="SectionTable display" >
 		<tbody>
 			<tr>
-        <td>
-					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/const-ness.cpp">:flashlight:const-ness in C++</a>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/const-ness.cpp">:flashlight:const-ness</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/inline_keyword.cpp">:flashlight:inline keyword</a>
 				</td>
 			</tr>
 		</tbody>
