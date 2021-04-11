@@ -17,5 +17,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/inline_keyword.cpp">:flashlight:inline keyword</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Function_Overloading.cpp">:flashlight:Function Overloading</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
