@@ -39,6 +39,7 @@ int main() {
 
     delete(p);
     //No delete for placement new (Since, it was not dynamically allocated)
+    //This is the only case when you'll have to explicitly call Destructor
 
 return 0;
 }
