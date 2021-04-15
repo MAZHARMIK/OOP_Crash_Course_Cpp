@@ -10,6 +10,7 @@ using namespace std;
     -Can't be overloaded
     -Unique for the class (Since no parameter allowed -> Hence no overloading allowed -> Hence, Unique)
     -If user provided no destructor, default destructor is called by compiler (which has nothing in its body)
+    -NOTE: Destructors are called in reverse order of construction of objects (They are LIFO in nature)
 */
 
 class Stack {
