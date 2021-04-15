@@ -62,5 +62,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Destructors.cpp">:flashlight:Destructors</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Why_Initialization_List.cpp">:flashlight:Why Initialization List</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
