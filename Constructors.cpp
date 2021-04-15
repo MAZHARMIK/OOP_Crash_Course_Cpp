@@ -8,7 +8,8 @@ using namespace std;
     We can do initialization using initializer list as well.
     - We can have parameterized constructor (default parameters can also be used)
     - We can have overloaded constructors as well
-
+    - NOTE: If you are declaring an array of objects (Complex c[3]; then you must have a default constructor because if we don't have default constructor, then
+      it will require the parameters to be passed and with statement Complex c[3], you can't do that)
 */
 
 class Complex {
