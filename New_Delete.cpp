@@ -9,6 +9,10 @@ int main() {
         -C++ offers new() and delete() for same purpose as well
         - malloc and new are functions
         - free and delete are operatrors
+        
+        NOTE:
+        -malloc only allocates memory but new allocates memory but also calls constructor
+        -free only deallocates memory but delete deallocates memory but also calls destructor
     */
 
     //(1)
