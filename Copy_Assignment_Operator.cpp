@@ -34,10 +34,12 @@ public:
         //Because, I don't want c to change
         //Why returnin Complex& (object of same type ) ?
         //To support Copy Assignment Chain
-        re_ = c.re_;
-        im_ = c.im_;
-        cout << "Copy Assignment: ";
-        print();
+        if(this != &c) { //we don't want a self copy by mistake
+            re_ = c.re_;
+            im_ = c.im_;
+            cout << "Copy Assignment: ";
+            print();
+        }
         return *this;
     }
 
