@@ -11,8 +11,8 @@ using namespace std;
           but for UDT, we need Copy Constructor
           Also copy constructor is needed for initializing the data members of a UDT from an existing value.
 
-    Why the parameter of copy constructor is const reference ?
-    Ans : Look for Copy_Constructor_II.cpp
+    Why the parameter of copy constructor is Call-by-Reference ?
+    Ans : Look for Copy_Constructor_II.cpp  (https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Copy_Constructor_II.cpp)
 */
 
 class Complex {
@@ -26,7 +26,7 @@ public:
         print();
     }
 
-    //copy constructor
+    //copy constructor: Parameter should be passed as reference only
     Complex(const Complex& c): re_(c.re_), im_(c.im_) {
         cout << "Complex copy Constructor: ";
         print();
