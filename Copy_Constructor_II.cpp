@@ -5,7 +5,7 @@ using namespace std;
 /*
     Copy Constructor:
     - call by value calls copy constructor and for this copy destructor will be called as well.
-    - If it had been passed by reference, then no such thing would have happened.
+    - If it had been passed by reference, then no copy constructor is called which means no new object is created and hence no destructor will be called.
 
     Why the parameter to a copy constructor must be passed as Call-by-Reference ?
     Ans: MyClass(MyClass other);
