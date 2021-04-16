@@ -72,5 +72,15 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Order_Of_Initialization.cpp">:flashlight:Order Of Initialization</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Copy_Constructor_I.cpp">:flashlight:Copy Constructor-I</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Copy_Constructor_II.cpp">:flashlight:Copy Constructor-II</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
