@@ -82,5 +82,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Copy_Constructor_II.cpp">:flashlight:Copy Constructor-II</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Deep_And_Shallow_Copy.cpp">:flashlight:Deep and Shallow Copy</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
