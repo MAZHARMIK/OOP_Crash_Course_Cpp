@@ -2,7 +2,8 @@
 <img src="https://www.sitesbay.com/cpp/images/oops/oops-concept-in-cpp.png" width="600" height="250">
 
 # OOP_Crash_Course_Cpp : :triangular_flag_on_post:
-Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible and get ready for an interview in short span of time 🦸🏻‍♂️
+Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible and get ready for an interview in short span of time 🦸🏻‍♂️  
+**NOTE** : Please don't skip any topic below. In order to understand nth topic, you should study (n-1)st topic first. They are in topologically sorted order :wink:
 
 <h1>Topic Names</h1>
 <table id = "example" class="SectionTable display" >
