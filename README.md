@@ -112,5 +112,15 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/When_To_Use_Mutable.cpp">:flashlight:When to use Mutable Data Members</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/static_members_I.cpp">:flashlight:Static Members-I</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/static_members_II.cpp">:flashlight:Static Members-II</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
