@@ -107,5 +107,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Mutable_data_members.cpp">:flashlight:Mutable Data Members</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/When_To_Use_Mutable.cpp">:flashlight:When to use Mutable Data Members</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
