@@ -127,5 +127,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/static_members_III.cpp">:flashlight:Static Members-III</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/singleton_class.cpp">:flashlight:Singleton Class</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
