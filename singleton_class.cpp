@@ -25,6 +25,7 @@ private:
     }
 
     static Printer* myPrinter_;//Instance of the singleton Printer (Pointer to object)
+    //static means this belongs to class but not to any object
 public:
     ~Printer() {
         cout << "Destructor called" << endl;
