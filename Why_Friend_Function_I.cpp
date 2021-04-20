@@ -6,6 +6,7 @@ using namespace std;
     -When a function needs to access private data members of two or more different/independent classes and do some operation,
     and at the same time the function can't be a member function of any one class because it won't be able to access private
     members of other class, then friend function comes to rescue in this situation.
+    Using friend function, a global function can access private members of some class.
 */
 class Matrix;
 
@@ -57,6 +58,7 @@ public:
     friend Vector prod(Matrix *pM, Vector* pV);
 };
 
+//Global function
 Vector prod(Matrix *pM, Vector* pV) {
     Vector v(pM->m_);
     v.Clear();
