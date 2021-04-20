@@ -17,6 +17,18 @@ using namespace std;
 
     So, if a class has too many member functions to be made friend of, its better to go for friend class instead of friend
     function
+    
+    IMPORTANT POINTS:
+    - If class A is a friend of class B, it doesn't mean class B is a friend of class A
+    - If class A is a friend of class B and class B is a friend of class C, it doesn't mean class A is a friend of class C
+    
+    Now, we are aware of three kinds of visibilities:
+    -public
+    -private
+    -friend : It breaks visibility structure and hence should be used judiciously in cases like :
+        - A function needs to access the internals of two(or more) independent classes. Ex: Matrix-vector multiplication
+        - A class is built on top of another class. Ex: List-Node access
+        - Certain situations of operator overloading. Ex: streaming operators (Later we will study this too)
 */
 
 class Node;
@@ -41,7 +53,7 @@ public:
     //friend void List::display();
     //friend void List::append(Node* p);
 
-    friend class List;
+    friend class List; //List is a friend of Node. So, List can access Node's private members
 };
 
 void List::display() {
