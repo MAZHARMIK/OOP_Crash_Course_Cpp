@@ -148,5 +148,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Why_Friend_Function_II.cpp">:flashlight:Why Friend Function : Example-II</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Friend_class.cpp">:flashlight:Friend Class</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
