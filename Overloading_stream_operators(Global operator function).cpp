@@ -24,7 +24,7 @@ std::ostream& operator<< (std::ostream& os, const Complex& a) { //overload 1
 
 //global operator function
 //We return istream& to support chaining like : cout >> d1 >> d2;
-std::istream& operator>> (istream& is, const Complex& a) {
+std::istream& operator>> (istream& is, Complex& a) { //Don't use const Complex, because we are taking an input and it changes
     is >> a.re >> a.im;
     return is;
 }
