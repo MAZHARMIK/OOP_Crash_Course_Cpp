@@ -160,6 +160,11 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 			</tr>
 			<tr>
         			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Operator_Overloading_UDT_II.cpp">:flashlight:Operator Overloading UDT - II (Issues)</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Operator_Overloading_Unary(%2B%2B).cpp">:flashlight:Overloading Unary (++)</a>
 				</td>
 			</tr>
