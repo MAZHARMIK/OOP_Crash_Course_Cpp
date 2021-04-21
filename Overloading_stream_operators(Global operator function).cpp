@@ -3,7 +3,7 @@ using namespace std;
 
 /*
     overloading IO Operators operator<<, operator>>
-    Since, global operator function breaks encapsulation and member operator function has limitation
+    Using global operator function :  It breaks encapsulation and member operator function has limitation
     //Read comments below
 
 */
