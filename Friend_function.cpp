@@ -18,7 +18,7 @@ using namespace std;
 class MyClass {
     int data_;
 public:
-    MyClass(int i) : data_(i) {}
+    explicit MyClass(int i) : data_(i) {}
 
     friend void display_friend_func(const MyClass& a);
 };
