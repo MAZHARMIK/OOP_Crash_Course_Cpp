@@ -2,6 +2,7 @@
 <img src="https://www.sitesbay.com/cpp/images/oops/oops-concept-in-cpp.png" width="600" height="250">
 
 # OOP_Crash_Course_Cpp : :triangular_flag_on_post:
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/63b1e3a050eb4e6bb1c7c0862480b5cb)](https://app.codacy.com/gh/MAZHARMIK/OOP_Crash_Course_Cpp?utm_source=github.com&utm_medium=referral&utm_content=MAZHARMIK/OOP_Crash_Course_Cpp&utm_campaign=Badge_Grade)  
 Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible and get ready for an interview in short span of time 🦸🏻‍♂️  
 **NOTE** : Please don't skip any topic below. In order to understand nth topic, you should study (n-1)st topic first. They are in topologically sorted order :wink:
 
