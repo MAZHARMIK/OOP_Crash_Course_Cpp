@@ -194,5 +194,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Namespace-I.cpp">:flashlight:Namespace-I</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Namespace-II.cpp">:flashlight:Namespace-II</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
