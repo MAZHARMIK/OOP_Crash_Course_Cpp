@@ -16,7 +16,7 @@ namespace MyNameSpace {
     class MyClass {
         int data;
     public:
-        MyClass(int d) : data(d) {}
+        explicit MyClass(int d) : data(d) {}
         void display() {
             cout << "MyClass data = " << data << endl;
         }
