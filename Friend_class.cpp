@@ -37,7 +37,7 @@ class List {
     Node* head; //Head of the list
     Node* tail; //Tail of the list
 public:
-    List(Node* h = NULL) : head(h), tail(h) {}
+    explicit List(Node* h = NULL) : head(h), tail(h) {}
 
     void display();
     void append(Node* p);
@@ -47,7 +47,7 @@ class Node {
     int val;
     Node* next;
 public:
-    Node(int i) : val(i), next(NULL) {}
+    explicit Node(int i) : val(i), next(NULL) {}
 
     //No need to add these anymore
     //friend void List::display();
