@@ -204,5 +204,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Namespace-III%20(shortcuts).cpp">:flashlight:Namespace-III(shortcuts)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Namespace-IV(Global%20and%20open%20nature).cpp">:flashlight:Namespace-IV(Global and open nature)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
