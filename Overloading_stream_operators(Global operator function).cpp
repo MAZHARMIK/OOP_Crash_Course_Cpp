@@ -12,7 +12,7 @@ class Complex {
 public:
     double re, im; //They are made public because we are using global operator function
 public:
-    Complex(double r = 0, double i = 0): re(r), im(i) {}
+    explicit Complex(double r = 0, double i = 0): re(r), im(i) {}
 };
 
 //global operator function
