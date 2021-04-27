@@ -30,7 +30,7 @@ public:
     D(int d, int i) : B(d), info_(i) { //Explicit construction of Base (B(d))
         cout << "D::D(int, int): " << data_ << ", " << info_ << endl;
     }
-    D(int i) : info_(i) { //Implicit construction of Base by compiler (Possible only because Base has default constructor which is similar to no parameter constructor
+    explicit D(int i) : info_(i) { //Implicit construction of Base by compiler (Possible only because Base has default constructor which is similar to no parameter constructor
                           //else compiler error
         cout << "D::D(int): " << data_ <<  ", " << info_ << endl;
     }
