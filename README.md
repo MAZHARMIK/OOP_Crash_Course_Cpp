@@ -239,5 +239,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Inheritance_Part_V(Model%20Phone%20Hierarchy).cpp">:flashlight:Inheritance Part-V(Model Phone Hierarchy)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Type_Casting.cpp">:flashlight:Type Casting</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
