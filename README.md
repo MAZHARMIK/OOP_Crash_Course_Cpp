@@ -246,7 +246,12 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Static_Dynamic_Binding.cpp">:flashlight:Static & DYnamic Binding</a>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Static_Dynamic_Binding.cpp">:flashlight:Static & Dynamic Binding</a>
+				</td>
+			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Static_Dynamic_Binding_II.cpp">:flashlight:Static & Dynamic Binding-II</a>
 				</td>
 			</tr>
 		</tbody>
