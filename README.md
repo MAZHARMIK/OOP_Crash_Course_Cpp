@@ -266,7 +266,7 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Static_Dynamic_Binding_V(Pure%20Virtual%20Function%20and%20Abstract%20Base%20Class).cpp">:flashlight:Static & Dynamic Binding-V(Pure Virtual Function & Abstract Class)</a>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Static_Dynamic_Binding_V(Pure%20Virtual%20Function%20&%20Abstract%20Class).cpp">:flashlight:Static & Dynamic Binding-V(Pure Virtual Function & Abstract Class)</a>
 				</td>
 			</tr>
 		</tbody>
