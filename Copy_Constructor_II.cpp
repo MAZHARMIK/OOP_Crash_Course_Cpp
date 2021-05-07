@@ -48,7 +48,7 @@ public:
         c_param.print();
     }
 
-    void Display_Call_By_Reference(Complex& c_param) { //call by value
+    void Display_Call_By_Reference(Complex& c_param) { //call by reference
         cout << "Display: " ;
         c_param.print();
     }
