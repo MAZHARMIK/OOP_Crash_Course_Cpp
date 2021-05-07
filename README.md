@@ -279,5 +279,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Design_Salary_Processing_Application.cpp">:flashlight:Design Salary Processing Application</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Virtual_Function_Table.cpp">:flashlight:Virtual Function Table</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
