@@ -28,6 +28,7 @@ using namespace std;
 */
 
 /////////////////////////////////const_cast Operator/////////////////////////////////////
+//Example-1
 class A {
     int i_;
 public:
@@ -61,6 +62,33 @@ int main() {
 
     //Please note that 'this' is a constant pointer
     //const_cast<A>(a).set(5); So, this is not allowed. You cannot remove constness of 'this' pointer
+
+return 0;
+}
+
+/////////////////////////Example-2/////////////////////
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    const int a   = 10; //constant integer
+
+    const int* p1 = &a; //p1 is a pointer to a constant integer
+
+    //*p1 = 5; //Not allowed . Since, p1 points to a constant integer
+
+    int* p2 = const_cast<int*>(p1); //we changed const int* to int*
+
+    *p2 = 5;
+    // we expect to have changed the value of a
+
+    //lets's see
+    cout << a << endl;   //still we get 10
+    cout << *p2 << endl; //we get 5
+
+    //We can't modify a value which is initially declared as const
+    //compiler shows undefined behaviour
+
 
 return 0;
 }
