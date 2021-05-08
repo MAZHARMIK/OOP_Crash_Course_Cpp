@@ -46,7 +46,7 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Overlaoding_new_delete.cpp">:flashlight:this pointer</a>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/this_pointer.cpp">:flashlight:this pointer</a>
 				</td>
 			</tr>
 			<tr>
