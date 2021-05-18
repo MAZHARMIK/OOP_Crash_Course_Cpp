@@ -59,7 +59,7 @@ int main() {
 
     cout << a.get() << endl; //I am able to call const member function get() only because a is const
 
-//    a.set(5); ERROR : a is of type 'const A' and when you call a.set(), you send 'this' pointer which is of type 'A&'
+//    a.set(5); ERROR : set() is a non const function, so type of this pointer it expects is 'this*'. But a is a const object
                         //So, converting from const A to A& gives error.
 
     const_cast<A&>(a).set(5); //Resultant is an object which has a 'this' pointer which points to a non-const object
