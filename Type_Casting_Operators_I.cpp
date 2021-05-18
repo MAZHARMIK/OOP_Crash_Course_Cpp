@@ -50,7 +50,11 @@ int main() {
 
     print(const_cast<char *>(c)); //You removed constness from c
 
-    //Please note that 'this' is a constant pointer
+    /*
+        The type of this depends upon function declaration. If the member function of a class X is declared const,
+        the type of this is const X* , if the member function is declared volatile, the type of this is volatile X*
+        , and if the member function is declared const volatile, the type of this is const volatile X* 
+    */
     const A a(1); //'this' pointer points to a constant object a
 
     cout << a.get() << endl; //I am able to call const member function get() only because a is const
