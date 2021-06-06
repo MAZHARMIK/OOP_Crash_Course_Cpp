@@ -289,5 +289,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Type_Casting_Operators_I.cpp">:flashlight:Type Casting Operators - I</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Type_Casting_Operators_II(static_cast).cpp">:flashlight:Type Casting Operators - II (static_cast)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
