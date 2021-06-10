@@ -324,5 +324,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Template-II%20(typename).cpp">:flashlight:Template-II (typename)</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Template-III%20(class%20templates).cpp">:flashlight:Template-III (class templates)</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
