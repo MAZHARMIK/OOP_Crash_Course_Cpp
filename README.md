@@ -314,5 +314,10 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Multiple%20Inheritance%20II.cpp">:flashlight:Multiple Inheritance II</a>
 				</td>
 			</tr>
+			<tr>
+        			<td>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Template-I.cpp">:flashlight:Template-I</a>
+				</td>
+			</tr>
 		</tbody>
 </table>
