@@ -42,7 +42,7 @@ public:
         cout << "D()" << endl;
     }
 
-    ~D() { //By Rule of Polymorphism hierarchy, it's also virtual
+    ~D() {
         cout << "~D()" << endl;
     }
 
