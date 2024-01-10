@@ -25,7 +25,7 @@ Let's do a crash course on C++ OOPs concepts in easiest and fastest way possible
 			</tr>
 			<tr>
         			<td>
-					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Function_Overloading.cpp">:flashlight:Operator Overloading</a>
+					<a href="https://github.com/MAZHARMIK/OOP_Crash_Course_Cpp/blob/main/Operator_Overloading.cpp">:flashlight:Operator Overloading</a>
 				</td>
 			</tr>
 			<tr>
