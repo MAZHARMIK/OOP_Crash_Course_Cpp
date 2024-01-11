@@ -27,6 +27,11 @@ public:
     }
 
     //copy constructor: Parameter should be passed as reference only
+    /*
+            When you pass an object by value in C++, a copy of the entire object is made and passed to the function. 
+            For a copy constructor, this means creating a copy of the object being passed, which involves invoking the
+            copy constructor again. This process can lead to infinite recursion and a stack overflow.
+    */
     Complex(const Complex& c): re_(c.re_), im_(c.im_) {
         cout << "Complex copy Constructor: ";
         print();
