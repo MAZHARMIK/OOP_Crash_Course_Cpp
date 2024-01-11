@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-    Operator overloading for UDT - I
+    Operator overloading for UDT - I (UDT - User Defined Data Type)
     Binary (two parameters)
     a+b   -  MyType operaror+(const MyType& a, const MyType& b)
 
