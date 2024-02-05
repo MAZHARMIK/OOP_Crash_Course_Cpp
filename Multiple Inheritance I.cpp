@@ -7,7 +7,8 @@ using namespace std;
     - Derived class cannot access private members of any Base class
     - Derived class can access protected members of any Base class
     - constructor of Derived class must first call all constructors of the Base classes to construct
-      Base class instances of the Derived class - Base class constructors are called in listing order
+      Base class instances of the Derived class 
+    - Base class constructors are called in listing order
       If not called, then Base class must have default constructor (obvious)
     - Destructors of Derived class must first call all Destructors of the Base classes to destruct
       Base class instances of the Derived class 
