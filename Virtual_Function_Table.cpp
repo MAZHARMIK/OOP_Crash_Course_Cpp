@@ -8,7 +8,7 @@ using namespace std;
     a virtual function table (VFT), which will have all the virtual functions listed one after the other in the order
     they have been defined.
 
-    As class is specialized, the compiler checks if the derived class overrides the virtual function, if yes, then
+    As class is initialized, the compiler checks if the derived class overrides the virtual function, if yes, then
     compiler changes the corresponding entry in its own VFT and replaces with the version it has overridden.
 
     -Whenever a class defines a virtual function, a hidden member variable is added to the class which points to an array
