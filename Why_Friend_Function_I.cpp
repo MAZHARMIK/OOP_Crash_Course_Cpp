@@ -8,80 +8,51 @@ using namespace std;
     members of other class, then friend function comes to rescue in this situation.
     Using friend function, a global function can access private members of some class.
 */
-class Matrix;
+#include <iostream>
 
-class Vector {
-    int vec_[3];
-    int n_;
+// Forward declaration of ClassB
+class ClassB;
+
+class ClassA {
+private:
+    int privateDataA;
+
 public:
-    Vector(int n) : n_(n) {
-        for(int i = 0; i<n_; i++)
-            vec_[i] = i+1;
-    }
+    ClassA(int dataA) : privateDataA(dataA) {}
 
-    void Clear() {
-        for(int i = 0; i<n_; i++)
-            vec_[i] = 0;
-    }
-
-    void Show() {
-        for(int i = 0; i<n_; i++)
-            cout << vec_[i] << " ";
-        cout << endl;
-    }
-
-    friend Vector prod(Matrix *pM, Vector* pV);
+    // Declare friend function that needs access to privateDataA and privateDataB
+    friend void performOperation(const ClassA& objA, const ClassB& objB);
 };
 
-class Matrix {
-    int mat_[3][3];
-    int m_, n_;
+class ClassB {
+private:
+    int privateDataB;
+
 public:
-    Matrix(int m, int n) : m_(m), n_(n) {
-        for(int i = 0; i<m_; i++) {
-            for(int j = 0; j<n_; j++) {
-                mat_[i][j] = i+j;
-            }
-        }
-    }
+    ClassB(int dataB) : privateDataB(dataB) {}
 
-    void Show() {
-        for(int i = 0; i<m_; i++) {
-            for(int j = 0; j<n_; j++) {
-                cout << mat_[i][j] << " ";
-            }
-            cout << endl;
-        }
-        cout << endl;
-    }
-
-    friend Vector prod(Matrix *pM, Vector* pV);
+    // Declare friend function that needs access to privateDataA and privateDataB
+    friend void performOperation(const ClassA& objA, const ClassB& objB);
 };
 
-//Global function
-Vector prod(Matrix *pM, Vector* pV) {
-    Vector v(pM->m_);
-    v.Clear();
+// Definition of the friend function
+void performOperation(const ClassA& objA, const ClassB& objB) {
+    // Access private members of both ClassA and ClassB
+    std::cout << "Performing operation with private data from ClassA: " << objA.privateDataA
+              << " and ClassB: " << objB.privateDataB << std::endl;
 
-    for(int i = 0; i< pM->m_; i++) {
-        for(int j = 0; j<pM->n_; j++) {
-            v.vec_[i] += pM->mat_[i][j] * pV->vec_[j];
-        }
-    }
-
-    return v;
+    // Perform some operation with private data from both classes
+    // For simplicity, let's just display the sum of the private data
+    int result = objA.privateDataA + objB.privateDataB;
+    std::cout << "Result of the operation: " << result << std::endl;
 }
 
 int main() {
-    Vector V(3);
-    Matrix M(2, 3);
+    ClassA objA(10);
+    ClassB objB(20);
 
-    Vector PV = prod(&M, &V);
+    // Call the friend function to perform the operation
+    performOperation(objA, objB);
 
-    M.Show();
-    V.Show();
-    PV.Show();
-
-return 0;
+    return 0;
 }
-
